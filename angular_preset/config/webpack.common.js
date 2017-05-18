@@ -3,6 +3,9 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var helpers = require('./helpers');
 
+const extractCSS = new ExtractTextPlugin('stylesheets/[name]-css.css');
+const extractLESS = new ExtractTextPlugin('stylesheets/[name]-less.css');
+
 module.exports = {
     entry: {
       'polyfills': './src/app/polyfills.ts',
@@ -25,6 +28,14 @@ module.exports = {
             {
                 test: /\.html$/,
                 loader: 'html-loader'
+            },
+            {
+                test: /\.css$/,
+                loader: extractCSS.extract([ 'css-loader' ])
+            },
+            {
+                test: /\.less$/,
+                loader: extractLESS.extract([ 'css-loader', 'less-loader' ])
             },
         ]
     },
