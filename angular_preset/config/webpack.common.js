@@ -37,6 +37,15 @@ module.exports = {
                 test: /\.less$/,
                 loader: extractLESS.extract([ 'css-loader', 'less-loader' ])
             },
+
+            {
+                test: /\.((woff2?|svg)(\?v=[0-9]\.[0-9]\.[0-9]))|(woff2?|svg|jpe?g|png|gif|ico)$/,
+                loader: 'url-loader?limit=10000&name=[name].[ext]'
+            },
+            {
+                test: /\.((ttf|eot)(\?v=[0-9]\.[0-9]\.[0-9]))|(ttf|eot)$/,
+                loader: 'file-loader?name=[name].[ext]'
+            },
         ]
     },
 
