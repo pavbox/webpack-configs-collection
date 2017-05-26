@@ -1,12 +1,9 @@
-## default_preset: simple config (js, css, html)
+## angular_preset: simple config (ts, less, systemjs)
 
 
 ### features list
 
-- [x] add js and css files
-- [x] use custom template
-- [ ] use pictures and fonts
-- [ ] use prod and dev modes
+- [ ] full functional check
 
 
 
