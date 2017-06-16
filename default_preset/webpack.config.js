@@ -33,7 +33,7 @@ const config = {
     new ExtractTextPlugin('styles.css'),
     // set default html template (using this file instead empty file)
     new HtmlWebpackPlugin({
-      template: './index.html'
+      template: './index_default.html'
     })
   ]
 }
