@@ -24,6 +24,20 @@ const config = {
         use: ExtractTextPlugin.extract({
           use: 'css-loader'
         })
+      },
+      {
+        test: /\.styl/,
+        use: ExtractTextPlugin.extract({
+          use: [
+            'style-loader',
+            'css-loader',
+            {
+              loader: 'stylus-loader',
+              options: {
+                use: [stylus_plugin()],
+              },
+            },
+          })
       }
     ]
   },
