@@ -1,6 +1,7 @@
 # webpack-configs-collection
 
-This repository contains all my webpacks configs: basic build, advanced, angular, react, gulp, etc.
+This repository contains all my webpack's configs: basic build, advanced, angular, react, gulp, etc.
+The repository uses for my interests and can't be updated faster. I add newly preset by my intention or demand.
 
 
 ### Description folders
@@ -8,7 +9,7 @@ This repository contains all my webpacks configs: basic build, advanced, angular
 - [x] default_preset:   simple config (js, css, html)
 - [ ] modern_preset:    simple modern frontend config (es6, systemjs, stylus + raw css)
 - [ ] modern_advanced:  image/fonts optimization, flexibility
-- [ ] angular_preset:   default angular2 config (simple app with TS and preprocessors)
+- [x] angular_preset:   default angular2 config (simple app with TS and preprocessors)
 - [ ] angular_advanced: using new angular2 features (i18n with lazy load)
 - [ ] react_preset:     default react (redux) config (simple app)
 - [ ] react_advanced:   ...
@@ -20,20 +21,13 @@ This repository contains all my webpacks configs: basic build, advanced, angular
 ### Installation
 
 ```shell
-
-# :D
 npm install webpack
-
-
 ```
 
 ### Usage
 
 ```shell
-
 ./node_modules/.bin/webpack [--config]
-
 # or in package.json
 # "start": "webpack --config webpack.config.js"
-
 ```

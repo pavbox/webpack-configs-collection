@@ -4,12 +4,3 @@
 ### features list
 
 - [ ] full functional check
-
-
-
-### Usage
-
-```shell
-
-
-```
