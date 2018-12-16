@@ -17,6 +17,10 @@ The repository uses for my interests and can't be updated faster. I add newly pr
 - [ ] deploy_preset:    integrations with CI, git hooks, separate bundles (/en/,/ru/)
 - [ ] realwold_app:     [any real world application example]
 
+feature priority:
+- react base app
+- react/redux app
+- other
 
 ### Installation
 
@@ -28,6 +32,6 @@ npm install webpack
 
 ```shell
 ./node_modules/.bin/webpack [--config]
-# or in package.json
+# way in package.json
 # "start": "webpack --config webpack.config.js"
 ```
