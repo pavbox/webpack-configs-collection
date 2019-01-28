@@ -1,0 +1,44 @@
+{
+  "name": "amm_frontend",
+  "version": "0.1.0",
+  "description": "frontend part of amm website project (evening 2015)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavbox/university_amm_web.git"
+  },
+  "keywords": [ "amm", "vsu", "2015" ],
+  "author": "pavbox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavbox/university_amm_web/issues"
+  },
+  "homepage": "https://github.com/pavbox/university_amm_web#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.1",
+    "eslint": "^5.11.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+
+    "redux": "^4.0.1",
+    "react-redux": "^6.0.0"
+  }
+}

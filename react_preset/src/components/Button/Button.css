@@ -1,0 +1,24 @@
+
+.button {
+  border: none;
+  padding: 20px 35px;
+  background-color: #aea;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+
+  border-radius: 10px;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active {
+  background-color: #8a8;
+  opacity: 1;
+}
